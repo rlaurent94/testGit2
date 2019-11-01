@@ -13,4 +13,8 @@ public interface RaSeanceIntervalleServices {
 //    void insertSeanceIntervalle(RaSeanceIntervalleData _seanceIntervalle);
 //    void insertSeanceIntervalleFromCsv(InputStream _csvIs, long _IdSeanceResume) throws IOException;
 //    void update(RaSeanceResumeData _seanceResume);
+		// duplique pour test git
+	  void insertSeanceIntervalle(RaSeanceIntervalleData _seanceIntervalle);
+      void insertSeanceIntervalleFromCsv(InputStream _csvIs, long _IdSeanceResume) throws IOException;
+      void update(RaSeanceResumeData _seanceResume);
 }
