@@ -17,7 +17,10 @@ public class RaCommonServicesImpl implements RaCommonServices {
     private RaTypeSeanceRepo typeSeanceRepo;
     private RaLieuSeanceRepo lieuSeanceRepo;
     private RaMeteoSeanceRepo meteoSeanceRepo;
-	// duplication pour test git ( depuis testGit2 )
+	// duplication pour test git ( depuis testGit2 ) oublie de dupliquer
+	private RaTypeSeanceRepo typeSeanceRepo;
+    private RaLieuSeanceRepo lieuSeanceRepo;
+    private RaMeteoSeanceRepo meteoSeanceRepo;
 
     @Autowired
     public RaCommonServicesImpl(RaTypeSeanceRepo _typeSeanceRepo, RaLieuSeanceRepo _lieuSeanceRepo, RaMeteoSeanceRepo _meteoSeanceRepo) {
