@@ -4,6 +4,11 @@ import com.opencsv.CSVReader;
 import org.springframework.stereotype.Service;
 import runningAnalyse.model.RaSeanceIntervalleData;
 import runningAnalyse.model.RaSeanceResumeData;
+// dupliqueé testGit2
+import com.opencsv.CSVReader;
+import org.springframework.stereotype.Service;
+import runningAnalyse.model.RaSeanceIntervalleData;
+import runningAnalyse.model.RaSeanceResumeData;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -11,6 +16,7 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
+// dupliqué dans testGit2
 
 @Service
 public class RaSeanceIntervalleServicesImpl implements RaSeanceIntervalleServices {
