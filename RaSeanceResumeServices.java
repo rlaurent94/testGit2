@@ -16,4 +16,8 @@ public interface RaSeanceResumeServices {
     public RaSeanceResumeData updateIntervalleFromCsv(InputStream _csvIs, RaSeanceResumeData _seanceResume) throws IOException;
     public void resetFromCsv(InputStream _csvIs) throws IOException;
     public void deleteSeanceResume(long _seanceResumeId);
+	// dupliquer pour test git depuis testGit2
+	public RaSeanceResumeData updateIntervalleFromCsv(InputStream _csvIs, RaSeanceResumeData _seanceResume) throws IOException;
+    public void resetFromCsv(InputStream _csvIs) throws IOException;
+    public void deleteSeanceResume(long _seanceResumeId);
 }
