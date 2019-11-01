@@ -4,6 +4,11 @@ import com.opencsv.CSVReader;
 import org.springframework.stereotype.Service;
 import runningAnalyse.model.RaSeanceIntervalleData;
 import runningAnalyse.model.RaSeanceResumeData;
+// dupliqueé testGit2
+import com.opencsv.CSVReader;
+import org.springframework.stereotype.Service;
+import runningAnalyse.model.RaSeanceIntervalleData;
+import runningAnalyse.model.RaSeanceResumeData;
 
 import java.io.BufferedReader;
 import java.io.IOException;
