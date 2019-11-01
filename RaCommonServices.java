@@ -10,4 +10,8 @@ public interface RaCommonServices {
     List<RaTypeSeanceData> getTypeSeance();
     List<RaLieuSeanceData> getLieuSeance();
     List<RaMeteoSeanceData> getMeteoSeance();
+	// duplication de ligne pour test changement master et push sur master
+	List<RaTypeSeanceData> getTypeSeance();
+    List<RaLieuSeanceData> getLieuSeance();
+    List<RaMeteoSeanceData> getMeteoSeance();
 }

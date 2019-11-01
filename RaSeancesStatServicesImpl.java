@@ -23,6 +23,11 @@ public class RaSeancesStatServicesImpl implements RaSeancesStatServices {
     public RaSeancesStatServicesImpl(RaSeanceResumeRepo _seanceResumeRepo) {
         seanceResumeRepo = _seanceResumeRepo;
     }
+	// duplication pour test git
+	@Autowired
+    public RaSeancesStatServicesImpl(RaSeanceResumeRepo _seanceResumeRepo) {
+        seanceResumeRepo = _seanceResumeRepo;
+    }
 
     public RaSeanceStatData calculateStatSeance(long _seanceId) {
         Optional<RaSeanceResumeData> seanceResume = seanceResumeRepo.findById(_seanceId);
