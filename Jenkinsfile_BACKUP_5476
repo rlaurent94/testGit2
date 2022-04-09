@@ -1,0 +1,26 @@
+pipeline {
+	agent any
+	
+<<<<<<< HEAD
+	tools {
+		maven 'maven-3.5.2'
+	}
+	
+	stages {
+		stage("build") {
+			steps {
+				sh 'mvn clean compile'
+			}
+		}
+	}
+}
+=======
+	stages {
+		stage("build") {
+			steps {
+				mvn clean compile
+			}
+		}
+	}
+}
+>>>>>>> a3f2db60bc13c826f2ac91b160d1652c296d3875
